@@ -22,31 +22,31 @@ document.addEventListener("keypress",function(event){
 function playsound(key){
     switch (key){
         case "w": //audio play
-            let tom1 = new Audio("../Drum-Set/sounds/Assets_sounds_tom-1.mp3");
+            let tom1 = new Audio("../Drum-Set/audio/Assets_sounds_tom-1.mp3");
             tom1.play();
             break;
         case "a": //audio play
-            let tom2 = new Audio("../drum-Set/audio/Assets_sounds_tom-2.mp3");
+            let tom2 = new Audio("../Drum-Set/audio/Assets_sounds_tom-2.mp3");
             tom2.play();
             break;
         case "s": //audio play
-            let tom3 = new Audio("../drum-Set/audio/Assets_sounds_tom-3.mp3");
+            let tom3 = new Audio("../Drum-Set/audio/Assets_sounds_tom-3.mp3");
             tom3.play();
             break;
         case "d": //audio play
-            let tom4 = new Audio("../drum-Set/audio/Assets_sounds_tom-4.mp3");
+            let tom4 = new Audio("../Drum-Set/audio/Assets_sounds_tom-4.mp3");
             tom4.play();
             break;
         case "j": //audio play
-            let snare = new Audio("../drum-Set/audio/Assets_sounds_snare.mp3");
+            let snare = new Audio("../Drum-Set/audio/Assets_sounds_snare.mp3");
             snare.play();
             break;
         case "k": //audio play
-            let crash = new Audio("../drum-Set/audio/Assets_sounds_crash.mp3");
+            let crash = new Audio("../Drum-Set/audio/Assets_sounds_crash.mp3");
             crash.play();
             break;
         case "l": //audio play
-            let kick = new Audio("../drum-Set/audio/Assets_sounds_kick-bass.mp3");
+            let kick = new Audio("../Drum-Set/audio/Assets_sounds_kick-bass.mp3");
             kick.play();
             break;
             default:
