@@ -22,7 +22,7 @@ document.addEventListener("keypress",function(event){
 function playsound(key){
     switch (key){
         case "w": //audio play
-            let tom1 = new Audio("../drum-Set/audio/Assets_sounds_tom-1.mp3");
+            let tom1 = new Audio("../Drum-Set/audio/Assets_sounds_tom-1.mp3");
             tom1.play();
             break;
         case "a": //audio play
